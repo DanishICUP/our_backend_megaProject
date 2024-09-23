@@ -1,0 +1,16 @@
+{
+  "name": "backend-megaproject",
+  "version": "1.0.0",
+  "description": "this is our first Mega Backend Project With Chai aur Backend - Youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Danish",
+    "Danish",
+    "Backend"
+  ],
+  "author": "Danish Khan",
+  "license": "ISC"
+}
