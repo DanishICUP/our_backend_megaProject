@@ -77,7 +77,7 @@ UserSchema.methods.genrateAccessToken = function(){
 UserSchema.methods.generateRefreshToken = function(){
     return jwt.sign(
         {
-            //payload and other with this ..... this will come database
+            //payload and other ..... this will come database
             _id:this._id,
             email:this.email,
             username:this.username,
