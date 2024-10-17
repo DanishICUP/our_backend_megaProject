@@ -16,7 +16,9 @@ const UploadOnClodinary = async (localFilePath) => {
              resource_type:'auto'
         })
         //file uploaded successfully 
-        console.log("file uploaded success:",response.url);
+
+        // console.log("file uploaded success:",response.url);
+        fs.unlinkSync(localFilePath)
         return response;
     } catch (error) {
         fs.unlinkSync(localFilePath)//this will remove temporaroy file into files
